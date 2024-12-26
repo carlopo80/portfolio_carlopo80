@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Portfolio de Carlos López | Desarrollador Frontend</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/jpg" href="https://frolicking-entremet-e02123.netlify.app/images/foto_frontal_negro.jpg" />
+    <meta
+      name="description"
+      content="Portfolio de Carlos, programador de frontend"
+    />
+    <meta
+      property="og:title"
+      content="Portfolio de un desarrollador de frontend"
+    />
+    <meta
+      name="description"
+      content="Descubre el trabajo y las habilidades de Carlos López, desarrollador frontend especializado en diseño web moderno y accesible."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <section class="cabecera">
+        <section class="menu_container">
+          <img
+            class="menu_logo"
+            src="https://frolicking-entremet-e02123.netlify.app/Portfolio/images/FRONTEND DEVELOPER (150 x 150 px).png"
+          />
+        </section>
+        <nav class="navbar">
+          <ul class="menu_links">
+            <li class="menu_item">
+              <a href="#">Home</a>
+            </li>
+            <li class="menu_item">
+              <a href="#Formación">Formación</a>
+            </li>
+            <li class="menu_item">
+              <a href="#Tecnologias">Tecnologias</a>
+            </li>
+            <li class="menu_item">
+              <a href="#Contacto">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <div class="postcabecera">
+        <img
+          class="foto-cara"
+          id="photo-image"
+          src="https://frolicking-entremet-e02123.netlify.app/Portfolio/images/foto_frontal_negro.jpg"
+          alt="foto de Carlos programador frontend"
+          title="Foto de Carlos"
+          width="300"
+          height="300"
+        />
+      </div>
+      <p id="texto">
+        Hola, soy Carlos, un desarrollador frontend apasionado por crear
+        experiencias web modernas, accesibles y optimizadas. Estoy en constante
+        aprendizaje para estar siempre al día con las últimas tecnologías.
+      </p>
+
+      <hr />
+
+      <section>
+        <video
+          hidden
+          id="pepe"
+          controls
+          src="https://frolicking-entremet-e02123.netlify.app/Portfolio/videos/7989854-hd_1080_1920_25fps.mp4"
+          height="300"
+        ></video>
+        <h2 id="Formación">Formación</h2>
+
+        <p>
+          He tenido la oportunidad de formarme en 42 Madrid, un entorno
+          innovador que fomenta la resolución de problemas de manera práctica.
+          Además, mi pasión por la programación me ha llevado a aprender de
+          manera autodidacta, explorando continuamente nuevas tecnologías y
+          herramientas.
+        </p>
+      </section>
+      <hr />
+      <h2 id="Tecnologias">Tecnologias favoritas</h2>
+      <section class="tech">
+        <div class="item-tech">
+          <img src="https://frolicking-entremet-e02123.netlify.app/Portfolio/images/html-5.png" height="100px" alt="icono html" />
+        </div>
+        <div class="item-tech">
+          <img src="https://frolicking-entremet-e02123.netlify.app/Portfolio/images/css-3.png" height="100px" alt="icono css" />
+        </div>
+        <div class="item-tech">
+          <img src="https://frolicking-entremet-e02123.netlify.app/Portfolio/images/js.png" height="100px" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section>
+        <h2>Formulario de Contacto</h2>
+
+        <form id="Contacto" method="post" action="/">
+          <fieldset>
+            <legend>Información personal</legend>
+
+            <div class="form_contact">
+              <label
+                >Nombre:
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Ingresa tu nombre"
+                  required
+                />
+              </label>
+            </div>
+            <div class="form_contact">
+              <label
+                >Email:
+                <input
+                  type="email"
+                  name="name"
+                  placeholder="ejemplo@ejemplo.com"
+                  required
+                />
+              </label>
+              <input id="enviar_form" type="submit" value="Enviar mensaje" />
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      Diseñado y desarrollado por Carlos López © 2024 | Conecta conmigo en
+      <a
+        href="https://linkedin.com/in/carlos-lopez-60a5871ba"
+        target="_blank"
+        noreferrer
+        >LinkedIn</a
+      >
+      o a través del formulario de contacto.
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
